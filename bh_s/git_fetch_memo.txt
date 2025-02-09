@@ -1,0 +1,10 @@
+1. 원본 저장소 최신내용 가져오기
+git fetch upstream
+git merge upstream/main
+
+2. fork 된 내 것에 commit & push
+git add .
+git commit -m " "
+git push origin main
+
+3. github 사이트에서 new_request
