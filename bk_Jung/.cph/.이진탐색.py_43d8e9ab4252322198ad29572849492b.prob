@@ -1,0 +1,1 @@
+{"name":"Local: 이진탐색","url":"c:\\Users\\ototk\\Desktop\\보균\\코딩테스트\\SSAFY_with_me\\bk_Jung\\이진탐색.py","tests":[{"id":1739190704790,"input":"3\n400 300 350\n1000 299 578\n1000 222 888","output":"#1 A\n#2 0\n#3 A"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ototk\\Desktop\\보균\\코딩테스트\\SSAFY_with_me\\bk_Jung\\이진탐색.py","group":"local","local":true}
