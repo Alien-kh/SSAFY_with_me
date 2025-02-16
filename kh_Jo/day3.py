@@ -1,14 +1,32 @@
-a = int(input()) # 첫째 줄
-b = input() # 둘쨰 줄
-lst = [] # 두 번째 숫자(문자형태)를 쪼개서 넣어줄 리스트
-result =[] # 최종 결과 리스트
-for ch in b: # 모든 수 쪼개서 lst에 넣어주기
-    lst.append(int(ch))
-for num in lst:
-    result.append(a * num) # 각 수를 a와 곱해서 결과에 넣어주기
-c, d, e = result[-1], result[-2], result [-3] # 백의자리 순서로 넣었으니 역순으로 지정
-print(c) # 일의 자리
-print(d) # 십의 자리
-print(e) # 백의 자리
-print(c+ (d*10) + (e * 100)) # 모두 더한 값
+def find_page(end_page, target_page):
+    cnt = 0
+    start = 1
 
+    while start <= end_page:
+        find_mid = int((start + end_page) / 2)
+        cnt += 1  # 탐색 횟수 증가
+
+        if find_mid == target_page:
+            return cnt  # 찾았을 때 탐색 횟수 반환
+        elif find_mid < target_page:
+            start = find_mid  # 오른쪽 탐색
+        else:
+            end_page = find_mid  # 왼쪽 탐색
+
+    return cnt  # 여기까지 올 일은 없음
+
+T = int(input())
+
+for _ in range(T):
+    P, Pa, Pb = map(int, input().split())
+
+    cnt_a = find_page(P, Pa)  # A가 몇 번 만에 찾는지
+    cnt_b = find_page(P, Pb)  # B가 몇 번 만에 찾는지
+
+    # 결과 출력
+    if cnt_a < cnt_b:
+        print("A")
+    elif cnt_a > cnt_b:
+        print("B")
+    else:
+        print("0")
