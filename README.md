@@ -3,7 +3,7 @@
 ## Study Notion  
 ### https://www.notion.so/_2-18eb1e39fe5f801988fdea215b9be70f
 ## Our book 
-![book](./first_algo.jpg)  
+![book](./first_algo.pngjpg)  
 
 ### 그라운드룰 
 1. 열심히 하기
