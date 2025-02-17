@@ -6,7 +6,7 @@ def selection_sort(arr):
             if arr[j] < arr[min_idx]:  # 최소값 찾기
                 min_idx = j
         arr[i], arr[min_idx] = arr[min_idx], arr[i]  # 위치 교환
-    return arr
+
 
 arr = [5, 1, 3, 7, 2, 9]
 selection_sort(arr)
