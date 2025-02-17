@@ -3,14 +3,13 @@ T = int(input())
 for test_case in range(1, T + 1):
     N = int(input())
     carrot = list(map(int,input().split()))
-    result = [0,0,0]
+    carrot.sort()
+    cnt = [0,0,0]
+
+    c = 0
     for i in range(N):
-        if carrot.count(i) > N//2:
-            print(f'#{test_case}',-1)
-        if carrot[i] == carrot[i]:
-            pass
-for i in range(1,1):
-    print(i)
+        if 
+
 
         
 
