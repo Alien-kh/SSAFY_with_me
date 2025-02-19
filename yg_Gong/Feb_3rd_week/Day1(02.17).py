@@ -1,3 +1,4 @@
+# 스위치 켜고끄기
 N = int(input())  # 스위치 개수
 arr = list(map(int, input().split()))  # 스위치 상태 (0부터 시작)
 
