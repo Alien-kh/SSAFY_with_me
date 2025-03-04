@@ -7,7 +7,7 @@ import sys
 N = int(sys.stdin.readline().strip())    # 첫 줄에 입력되는 명령의 수
 stack = []  # 스택에 사용할 빈 배열
 for _ in range(N):
-    stack_input = input().strip()
+    stack_input = sys.stdin.readline().strip()
 
     if 'push' in stack_input:
         # 와 진짜 바보다 숫자가 한자리인 경우만 생각했다,,
