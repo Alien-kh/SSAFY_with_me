@@ -1,5 +1,3 @@
-
-
 def dp(N,M,memo):
     for i in range(N):
         for w in range(M,W[i] -1, -1):
