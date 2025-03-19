@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dace9dd4-c3f9-403d-9bdd-e38c4ccb073d" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/도키도키_간식드리미.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/he_Park.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/그룹_나누기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,7 @@
     "Python.algo2_02_parkhyeeun.executor": "Run",
     "Python.snail.executor": "Run",
     "Python.균형잡힌세상.executor": "Run",
+    "Python.그룹_나누기.executor": "Run",
     "Python.도키도키_간식드리미.executor": "Run",
     "Python.바구니뒤집기.executor": "Run",
     "Python.부재중전화.executor": "Run",
@@ -72,7 +71,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.도키도키_간식드리미">
+  <component name="RunManager" selected="Python.그룹_나누기">
     <configuration name="0317이진탐색" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="he_Park" />
       <option name="ENV_FILES" value="" />
@@ -183,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="부재중전화" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="그룹_나누기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="he_Park" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,11 +192,10 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/부재중전화.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/그룹_나누기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,35 +296,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="algo2_02_parkhyeeun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="he_Park" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Temp/c8ca3deb-ad69-4498-931e-7031e7264b4d_구미_2반_박혜은 (2).zip.구미_2반_박혜은 (2).zip" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Temp/c8ca3deb-ad69-4498-931e-7031e7264b4d_구미_2반_박혜은 (2).zip.구미_2반_박혜은 (2).zip/algo2_02_parkhyeeun.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.그룹_나누기" />
         <item itemvalue="Python.도키도키_간식드리미" />
         <item itemvalue="Python.2진수_8진수" />
         <item itemvalue="Python.0317이진탐색" />
         <item itemvalue="Python.0317_병합정렬" />
-        <item itemvalue="Python.algo2_02_parkhyeeun" />
       </list>
     </recent_temporary>
   </component>
