@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <h1>나만의 SNS 서비스</h1>
+  <a href="{% url 'articles:create' %}">[CREATE]</a>
+  <form action="{% url "articles:index_false" %}">
+    <input type="submit" value="비공개 게시글 조회">
+  </form>
+  <form action="{% url "articles:index" %}">
+    <input type="submit" value="공개 게시글 조회">
+  </form>
+  <ul>
+    {% for article in articles %}
+    <a href="{% url 'articles:detail' article.pk%}">
+      {% if article.image %}
+        <img src="{{ article.image.url }}" alt="{{ article.image_description }}">
+      {% else %}  
+        <img src="{% static 'assets/noimage.png' %}" alt="noimage" style="max-width: 200px; max-height:200px;">
+      {% endif %}
+      <p>{{ article.title }}</p>
+    </a>
+    <hr>
+    {% endfor %}
+  </ul>
+{% endblock content %}
