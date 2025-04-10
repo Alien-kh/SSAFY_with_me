@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block style %}
+  <link rel="stylesheet" href="{% static "diaries/style.css" %}">
+{% endblock style %}
+
+{% block content %}
+  <h1>일기장</h1>
+  <a href="{% url "diaries:create" %}">[일기 쓰기]</a>
+  {% for diary in diaries %}
+  <div style="display: flex; border: 1px solid #ddd; margin-top: 20px; padding: 20px;">
+    <!-- 왼쪽 영역 -->
+    <div style="width: 50%; padding-right: 10px;">
+      <p>작성일 : {{ diary.created_at }}</p>
+      {% if diary.picture %}
+        <img src="{{ diary.picture.url }}" alt="{{ diary.picture }}">
+      {% else %}
+        <img src="{% static "diaries/default.png" %}" alt="{{ diary.picture }}">
+      {% endif %} 
+      <p>{{ diary.content }}</p>
+    </div>
+  
+    <!-- 오른쪽 영역 -->
+    <div style="width: 50%; border-left: 1px solid #ccc; padding-left: 10px; display: flex; flex-direction: column; align-items: center;">
+      <p style="margin-bottom: 10px;">아직 댓글이 없습니다.</p>
+      <input type="text" placeholder="댓글을 입력하세요" style="margin-bottom: 5px;">
+      <button>댓글 생성</button>
+    </div>
+    
+  </div>
+  
+  {% empty %}
+    <li>아직 작성한 일기가 없습니다.</li>
+  {% endfor %}
+
+{% endblock content %}
