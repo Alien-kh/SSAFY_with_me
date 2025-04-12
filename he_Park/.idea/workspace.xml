@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dace9dd4-c3f9-403d-9bdd-e38c4ccb073d" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/DFS와 BFS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/탈주범 검거.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snail.py" beforeDir="false" afterPath="$PROJECT_DIR$/snail.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,58 +31,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.0218_prac_배열최소합.executor": "Run",
-    "Python.0307_연습문제1,2,3.executor": "Run",
-    "Python.0317_병합정렬.executor": "Run",
-    "Python.0317이진탐색.executor": "Run",
-    "Python.0317퀵정렬.executor": "Run",
-    "Python.0320등산로.executor": "Run",
-    "Python.0320요리사.executor": "Run",
-    "Python.1979 어디에 단어가.executor": "Run",
-    "Python.2진수_8진수.executor": "Run",
-    "Python.369게임.executor": "Run",
-    "Python.DFS와 BFS.executor": "Run",
-    "Python.N과M(4).executor": "Run",
-    "Python.algo1_02_parkhyeeun (1).executor": "Run",
-    "Python.algo2_02_parkhyeeun.executor": "Run",
-    "Python.dfs, bfs 연습문제.executor": "Run",
-    "Python.snail.executor": "Run",
-    "Python.균형잡힌세상.executor": "Run",
-    "Python.그룹_나누기.executor": "Run",
-    "Python.도키도키_간식드리미.executor": "Run",
-    "Python.바구니뒤집기.executor": "Run",
-    "Python.부재중전화.executor": "Run",
-    "Python.색종이.executor": "Run",
-    "Python.아파트.executor": "Run",
-    "Python.영단어.executor": "Run",
-    "Python.오셀로게임.executor": "Run",
-    "Python.월말평가_연습.executor": "Run",
-    "Python.유기농 배추.executor": "Run",
-    "Python.인수의생일파티.executor": "Run",
-    "Python.재귀의귀재.executor": "Run",
-    "Python.점프점프.executor": "Run",
-    "Python.집으로돌아가기.executor": "Run",
-    "Python.퍼펙트셔플.executor": "Run",
-    "Python.풍선합.executor": "Run",
-    "Python.풍선합_보너스게임.executor": "Run",
-    "Python.프린터_큐.executor": "Run",
-    "Python.피보나치 수 5.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.0218_prac_배열최소합.executor&quot;: &quot;Run&quot;,
+    &quot;Python.0307_연습문제1,2,3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.0317_병합정렬.executor&quot;: &quot;Run&quot;,
+    &quot;Python.0317이진탐색.executor&quot;: &quot;Run&quot;,
+    &quot;Python.0317퀵정렬.executor&quot;: &quot;Run&quot;,
+    &quot;Python.0320등산로.executor&quot;: &quot;Run&quot;,
+    &quot;Python.0320요리사.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1979 어디에 단어가.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2진수_8진수.executor&quot;: &quot;Run&quot;,
+    &quot;Python.369게임.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DFS와 BFS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.N과M(4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.algo1_02_parkhyeeun (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.algo2_02_parkhyeeun.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dfs, bfs 연습문제.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snail.executor&quot;: &quot;Run&quot;,
+    &quot;Python.균형잡힌세상.executor&quot;: &quot;Run&quot;,
+    &quot;Python.그룹_나누기.executor&quot;: &quot;Run&quot;,
+    &quot;Python.도키도키_간식드리미.executor&quot;: &quot;Run&quot;,
+    &quot;Python.바구니뒤집기.executor&quot;: &quot;Run&quot;,
+    &quot;Python.부재중전화.executor&quot;: &quot;Run&quot;,
+    &quot;Python.색종이.executor&quot;: &quot;Run&quot;,
+    &quot;Python.아파트.executor&quot;: &quot;Run&quot;,
+    &quot;Python.영단어.executor&quot;: &quot;Run&quot;,
+    &quot;Python.오셀로게임.executor&quot;: &quot;Run&quot;,
+    &quot;Python.월말평가_연습.executor&quot;: &quot;Run&quot;,
+    &quot;Python.유기농 배추.executor&quot;: &quot;Run&quot;,
+    &quot;Python.인수의생일파티.executor&quot;: &quot;Run&quot;,
+    &quot;Python.재귀의귀재.executor&quot;: &quot;Run&quot;,
+    &quot;Python.점프점프.executor&quot;: &quot;Run&quot;,
+    &quot;Python.집으로돌아가기.executor&quot;: &quot;Run&quot;,
+    &quot;Python.탈주범 검거.executor&quot;: &quot;Run&quot;,
+    &quot;Python.퍼펙트셔플.executor&quot;: &quot;Run&quot;,
+    &quot;Python.풍선합.executor&quot;: &quot;Run&quot;,
+    &quot;Python.풍선합_보너스게임.executor&quot;: &quot;Run&quot;,
+    &quot;Python.프린터_큐.executor&quot;: &quot;Run&quot;,
+    &quot;Python.피보나치 수 5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.snail">
+}</component>
+  <component name="RunManager" selected="Python.탈주범 검거">
     <configuration name="유기농 배추" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="he_Park" />
       <option name="ENV_FILES" value="" />
@@ -107,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="점프점프" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="탈주범 검거" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="he_Park" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +119,29 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/점프점프.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/탈주범 검거.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="영단어" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="he_Park" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/영단어.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="영단어" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="그룹_나누기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="he_Park" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,7 +207,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/영단어.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/그룹_나누기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,50 +285,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="프린터_큐" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="he_Park" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/프린터_큐.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="그룹_나누기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="he_Park" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/그룹_나누기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="snail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="he_Park" />
       <option name="ENV_FILES" value="" />
@@ -332,11 +309,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.탈주범 검거" />
         <item itemvalue="Python.snail" />
         <item itemvalue="Python.DFS와 BFS" />
-        <item itemvalue="Python.유기농 배추" />
         <item itemvalue="Python.N과M(4)" />
-        <item itemvalue="Python.점프점프" />
       </list>
     </recent_temporary>
   </component>
